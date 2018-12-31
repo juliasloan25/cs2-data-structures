@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="241d48ef-642b-434c-8a58-a60cbd226800" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>set</find>
+      <find>map</find>
+      <find>invok</find>
+      <find>invoke</find>
+      <find>instance</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../.." value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../../.." source="jkarras" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../../.." source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/HangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/interfaces/NormalHangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/interfaces/IHangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/AIConsoleHangmanGame.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/AIHangmanGame.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NormalHangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/HangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/ConsoleHangmanGuesser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/ConsoleHangmanGame.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/interfaces/IHangmanGuesser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/guessers/AIConsoleHangmanGuesser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/guessers/ConsoleHangmanGuesser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/guessers/AIHangmanGuesser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/choosers/HangmanManager.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/interfaces/IHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/choosers/HangmanChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/choosers/RandomHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/BodyTests.java" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/NBodySimulationTests.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/HangmanGame.java" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/FileSourceProvider.java" />
+        <option value="$PROJECT_DIR$/tests/data/trace1.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace0-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace0.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace1-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace2-.txt" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/tests/data/trace3.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace4.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace5.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace6.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace7.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace8.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace4-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace6-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace8-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace5-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace7-.txt" />
+        <option value="$PROJECT_DIR$/tests/data/trace3-.txt" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/GuesserTests.java" />
+        <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="9" />
+    <option name="y" value="59" />
+    <option name="width" value="1402" />
+    <option name="height" value="834" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="choosers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="guessers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="cs2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="cs2" type="462c0819:PsiDirectoryNode" />
+              <item name="project02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-hangman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546278838996" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.remoteExternalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.caltech.cs2.project01" />
+      <recent name="edu.caltech.cs2.project01.interfaces" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/data" />
+      <recent name="$PROJECT_DIR$/dictionaries" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.caltech.cs2.project02" />
+      <recent name="edu.caltech.cs2.project01.guessers" />
+      <recent name="edu.caltech.cs2.project01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dictionaries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.C Tests">
+    <configuration name="HangmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.caltech.cs2.project02.HangmanGame" />
+      <module name="project02-hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.caltech.cs2.project02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A Tests" type="JUnit" factoryName="JUnit">
+      <module name="project02-hangman" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B Tests" type="JUnit" factoryName="JUnit">
+      <module name="project02-hangman" />
+      <option name="MAIN_CLASS_NAME" value="B" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="B" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C Tests" type="JUnit" factoryName="JUnit">
+      <module name="project02-hangman" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="C" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HangmanGame" />
+      <item itemvalue="JUnit.C Tests" />
+      <item itemvalue="JUnit.B Tests" />
+      <item itemvalue="JUnit.A Tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HangmanGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="241d48ef-642b-434c-8a58-a60cbd226800" name="Default Changelist" comment="" />
+      <created>1543693590472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543693590472</updated>
+      <workItem from="1543693596812" duration="7275000" />
+      <workItem from="1546215922673" duration="6323000" />
+      <workItem from="1546233295504" duration="5341000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated formatting for trace files.">
+      <created>1546216813510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546216813510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added initial A level tests for AIHangmanGuesser inside of ChooserTests.java.">
+      <created>1546223140282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546223140282</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java.">
+      <created>1546234834324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546234834324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="A_Tests - 2018.12.30 at 22h 06m 27s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.30 at 22h 08m 02s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 08h 29m 03s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 08h 32m 22s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 08h 33m 25s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 08h 37m 41s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 09h 22m 09s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 09h 24m 02s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 09h 53m 22s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2018.12.31 at 09h 53m 40s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18939000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40254778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32884097" />
+      <window_info anchor="bottom" id="SOQL Query" order="15" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated formatting for trace files." />
+    <MESSAGE value="Added initial A level tests for AIHangmanGuesser inside of ChooserTests.java." />
+    <MESSAGE value="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dictionaries/scrabble.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/AIHangmanGame.java" />
+    <entry file="file://$PROJECT_DIR$/dictionaries/example.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project02-hangman.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/BodyTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/interfaces/IHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/ConsoleHangmanGuesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1438">
+          <caret line="2391" column="25" selection-start-line="2391" selection-start-column="25" selection-end-line="2391" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/NBodySimulationTests.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.4.0-SNAPSHOT/junit-jupiter-params-5.4.0-SNAPSHOT.jar!/org/junit/jupiter/params/ParameterizedTestExtension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.4.0-SNAPSHOT/junit-jupiter-params-5.4.0-SNAPSHOT.jar!/org/junit/jupiter/params/ParameterizedTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0-SNAPSHOT/junit-jupiter-api-5.4.0-SNAPSHOT.jar!/org/junit/jupiter/api/DisplayNameGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace1-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace2-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace0-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/FileSourceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Images.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/ImageFileSourceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/trace8-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace5-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace4-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace7-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace6-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/data/trace3-.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/trace3.txt" />
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/interfaces/IHangmanGuesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/HangmanChooser.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CS2/project01/tests/edu/caltech/cs2/project01/BodyTests.java" />
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/GuesserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>project02-hangman</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.github.javaparser:javaparser-core:3.5.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
