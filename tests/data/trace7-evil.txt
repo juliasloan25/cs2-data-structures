@@ -81,19 +81,9 @@ Your guess? Yes, there is one n
 guesses : 2
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, u]
 current : --u--ing
-Your guess? Yes, there is one p
+Your guess? Sorry, there are no p's
 
-guesses : 2
+guesses : 1
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, u]
-current : -pu--ing
+current : --u--ing
 Your guess? Sorry, there are no q's
-
-guesses : 1
-guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, u]
-current : -pu--ing
-Your guess? Yes, there are 2 r's
-
-guesses : 1
-guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, u]
-current : -purring
-Your guess? Yes, there is one s
