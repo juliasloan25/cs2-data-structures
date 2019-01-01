@@ -106,14 +106,19 @@ Your guess? Sorry, there are no u's
 guesses : 6
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
 current : -o-
-Your guess? Yes, there is one v
+Your guess? Sorry, there are no v's
 
-guesses : 6
+guesses : 5
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v]
-current : vo-
-Your guess? Sorry, there are no w's
+current : -o-
+Your guess? Yes, there is one w
 
 guesses : 5
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w]
-current : vo-
-Your guess? Yes, there is one x
+current : -ow
+Your guess? Sorry, there are no x's
+
+guesses : 4
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x]
+current : -ow
+Your guess? Yes, there is one y
