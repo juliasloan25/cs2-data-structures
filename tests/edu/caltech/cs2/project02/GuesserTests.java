@@ -233,6 +233,12 @@ public class GuesserTests {
                     "{word length = 20, max wrong guesses = 15, guesses = aeioubcdfghjklmnpqrstvwxyz}",
                     "{word length = 8, max wrong guesses = 14, guesses = aeioubcdfghjklmnpqrstvwxyz}",
                     "{word length = 20, max wrong guesses = 1, guesses = u}",
+                    "{word length = 7, max wrong guesses = 26, guesses = abcdefghijklmnopqrstuvwxyz}",
+                    "{word length = 7, max wrong guesses = 5, guesses = tusor}",
+                    "{word length = 7, max wrong guesses = 8, guesses = tusoraeiz}",
+                    "{word length = 7, max wrong guesses = 7, guesses = ziearosut}",
+                    "{word length = 4, max wrong guesses = 11, guesses = etaoinshrlud}",
+                    "{word length = 12, max wrong guesses = 7, guesses = etaoinshrlud}",
             },
             outputFiles = {
                     "trace0-evil.txt",
@@ -244,6 +250,12 @@ public class GuesserTests {
                     "trace6-evil.txt",
                     "trace7-evil.txt",
                     "trace8-evil.txt",
+                    "trace9-evil.txt",
+                    "trace10-evil.txt",
+                    "trace11-evil.txt",
+                    "trace12-evil.txt",
+                    "trace13-evil.txt",
+                    "trace14-evil.txt",
             }
     )
     public void testPlayGameWithEvilChooser(Map<String, String> arguments, String expectedOutput, CaptureSystemOutput.OutputCapture capture) {
