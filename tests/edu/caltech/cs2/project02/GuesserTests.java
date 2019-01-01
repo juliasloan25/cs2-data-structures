@@ -129,6 +129,12 @@ public class GuesserTests {
                     "{seed = 19, word length = 14, max wrong guesses = 26, guesses = abcdefghijklmnopqrstuvwxyz}",
                     "{seed = 239, word length = 9, max wrong guesses = 7, guesses = gsnreou}",
                     "{seed = 77, word length = 21, max wrong guesses = 4, guesses = iqzyx}",
+                    "{seed = 1288, word length = 7, max wrong guesses = 1, guesses = negator}",
+                    "{seed = 1972, word length = 5, max wrong guesses = 8, guesses = computer}",
+                    "{seed = 1972, word length = 19, max wrong guesses = 3, guesses = xvcounterz}",
+                    "{seed = 2019, word length = 8, max wrong guesses = 26, guesses = abcdefghijklmnopqrstuvwxyz}",
+                    "{seed = 2019, word length = 8, max wrong guesses = 7, guesses = redfqin}",
+                    "{seed = 2019, word length = 8, max wrong guesses = 2, guesses = redfqin}",
             },
             outputFiles = {
                     "trace0.txt",
@@ -140,7 +146,12 @@ public class GuesserTests {
                     "trace6.txt",
                     "trace7.txt",
                     "trace8.txt",
-
+                    "trace9.txt",
+                    "trace10.txt",
+                    "trace11.txt",
+                    "trace12.txt",
+                    "trace13.txt",
+                    "trace14.txt",
             }
     )
     public void testPlayGameWithRandomChooser(Map<String, String> arguments, String expectedOutput, CaptureSystemOutput.OutputCapture capture) {
