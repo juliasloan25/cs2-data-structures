@@ -6,104 +6,94 @@ Your guess? Sorry, there are no a's
 guesses : 14
 guessed : [a]
 current : --------------------
-Your guess? Yes, there are 2 e's
+Your guess? Yes, there are 4 e's
 
 guesses : 14
 guessed : [a, e]
-current : -----e--e-----------
+current : -------e-e-----e-e--
 Your guess? Yes, there are 2 i's
 
 guesses : 14
 guessed : [a, e, i]
-current : -----e--e-----i--i--
-Your guess? Yes, there are 3 o's
+current : i------e-e--i--e-e--
+Your guess? Yes, there is one o
 
 guesses : 14
 guessed : [a, e, i, o]
-current : -o---e--e-o---io-i--
-Your guess? Yes, there are 2 u's
+current : i--o---e-e--i--e-e--
+Your guess? Sorry, there are no u's
 
-guesses : 14
+guesses : 13
 guessed : [a, e, i, o, u]
-current : -ou--e--e-o-u-io-i--
-Your guess? Sorry, there are no b's
+current : i--o---e-e--i--e-e--
+Your guess? Yes, there is one b
 
 guesses : 13
 guessed : [a, b, e, i, o, u]
-current : -ou--e--e-o-u-io-i--
+current : i--o---e-e--ib-e-e--
 Your guess? Yes, there is one c
 
 guesses : 13
 guessed : [a, b, c, e, i, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---e-e--ib-e-e--
 Your guess? Sorry, there are no d's
 
 guesses : 12
 guessed : [a, b, c, d, e, i, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---e-e--ib-e-e--
 Your guess? Sorry, there are no f's
 
 guesses : 11
 guessed : [a, b, c, d, e, f, i, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---e-e--ib-e-e--
 Your guess? Sorry, there are no g's
 
 guesses : 10
 guessed : [a, b, c, d, e, f, g, i, o, u]
-current : cou--e--e-o-u-io-i--
-Your guess? Sorry, there are no h's
+current : i-co---e-e--ib-e-e--
+Your guess? Yes, there is one h
 
-guesses : 9
+guesses : 10
 guessed : [a, b, c, d, e, f, g, h, i, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---ehe--ib-e-e--
 Your guess? Sorry, there are no j's
 
-guesses : 8
+guesses : 9
 guessed : [a, b, c, d, e, f, g, h, i, j, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---ehe--ib-e-e--
 Your guess? Sorry, there are no k's
 
-guesses : 7
+guesses : 8
 guessed : [a, b, c, d, e, f, g, h, i, j, k, o, u]
-current : cou--e--e-o-u-io-i--
+current : i-co---ehe--ib-e-e--
 Your guess? Yes, there is one l
 
-guesses : 7
+guesses : 8
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, o, u]
-current : cou--e--e-olu-io-i--
-Your guess? Sorry, there are no m's
+current : i-co---ehe--ible-e--
+Your guess? Yes, there is one m
 
-guesses : 6
+guesses : 8
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, o, u]
-current : cou--e--e-olu-io-i--
-Your guess? Yes, there are 2 n's
+current : i-com--ehe--ible-e--
+Your guess? Yes, there are 3 n's
 
-guesses : 6
+guesses : 8
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, u]
-current : coun-e--e-olu-ioni--
-Your guess? Sorry, there are no p's
+current : incom--ehen-iblene--
+Your guess? Yes, there is one p
 
-guesses : 5
+guesses : 8
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, u]
-current : coun-e--e-olu-ioni--
+current : incomp-ehen-iblene--
 Your guess? Sorry, there are no q's
 
-guesses : 4
+guesses : 7
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, u]
-current : coun-e--e-olu-ioni--
-Your guess? Yes, there are 2 r's
+current : incomp-ehen-iblene--
+Your guess? Yes, there is one r
 
-guesses : 4
+guesses : 7
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, u]
-current : coun-erre-olu-ioni--
-Your guess? Yes, there is one s
-
-guesses : 4
-guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, u]
-current : coun-erre-olu-ionis-
-Your guess? Yes, there are 3 t's
-
-guesses : 4
-guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
-current : counterre-olutionist
-Your guess? Yes, there is one v
+current : incomprehen-iblene--
+Your guess? Yes, there are 3 s's
