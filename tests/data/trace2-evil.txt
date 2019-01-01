@@ -96,4 +96,19 @@ Your guess? Yes, there is one s
 guesses : 10
 guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s]
 current : -or-s
-Your guess? Yes, there are 2 t's
+Your guess? Yes, there is one t
+
+guesses : 10
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t]
+current : -orts
+Your guess? Sorry, there are no u's
+
+guesses : 9
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+current : -orts
+Your guess? Sorry, there are no v's
+
+guesses : 8
+guessed : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v]
+current : -orts
+Your guess? Yes, there is one w
