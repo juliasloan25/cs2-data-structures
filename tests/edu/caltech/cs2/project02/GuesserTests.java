@@ -21,20 +21,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @CaptureSystemOutput
 public class GuesserTests {
-    /*
-        public int makeGuess(char letter);
-        public boolean isGameOver();
-        public String getPattern();
-        public SortedSet<Character> getGuesses();
-        public int getGuessesRemaining();
-        public String getWord();
-
-     */
-
-    /*
-        - Chooses words with equal probability
-        - All other methods play game correctly
-     */
     private static String RANDOM_SOURCE = "src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java";
     private static String EVIL_SOURCE = "src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java";
 
@@ -91,7 +77,7 @@ public class GuesserTests {
     @Test
     public void testExceptionsViolatedInRandomConstructor() {
         Constructor c = Reflection.getConstructor(RandomHangmanChooser.class, int.class, int.class);
-        assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, -1, 3));
+        assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, -1, 3));
         assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, 3, -1));
     }
 
@@ -100,9 +86,11 @@ public class GuesserTests {
     @DisplayName("Expected makeGuess() exceptions for characters that aren't lower case for RandomHangmanChooser")
     @Test
     public void testMakeGuessExceptionsInRandom() {
+        Constructor c = Reflection.getConstructor(RandomHangmanChooser.class, int.class, int.class);
+        RandomHangmanChooser chooser = Reflection.newInstance(c, 1, 1);
         Method m = Reflection.getMethod(RandomHangmanChooser.class, "makeGuess", char.class);
-        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, 'a' - (i + 1))));
-        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, 'z' + (i + 1))));
+        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, chooser, 'a' - (i + 1))));
+        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, chooser, 'z' + (i + 1))));
     }
 
 
@@ -204,7 +192,7 @@ public class GuesserTests {
     @Test
     public void testExceptionsViolatedInEvilConstructor() {
         Constructor c = Reflection.getConstructor(EvilHangmanChooser.class, int.class, int.class);
-        assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, -1, 3));
+        assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, -1, 3));
         assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, 3, -1));
     }
 
@@ -213,9 +201,11 @@ public class GuesserTests {
     @DisplayName("Expected makeGuess() exceptions for characters that aren't lower case for EvilHangmanChooser")
     @Test
     public void testMakeGuessExceptionsInEvil() {
+        Constructor c = Reflection.getConstructor(EvilHangmanChooser.class, int.class, int.class);
+        EvilHangmanChooser chooser = Reflection.newInstance(c, 1, 1);
         Method m = Reflection.getMethod(EvilHangmanChooser.class, "makeGuess", char.class);
-        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, 'a' - (i + 1))));
-        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, 'z' + (i + 1))));
+        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, chooser, 'a' - (i + 1))));
+        IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(m, chooser, 'z' + (i + 1))));
     }
 
     @Order(2)
