@@ -54,7 +54,7 @@ public class HangmanGame {
   public static void showResults(IHangmanChooser hangman) {
     // if the game is over, the answer is the first word in the list
     // of words, so we use an iterator to get it
-    if (hangman.getGuessesRemaining() >= 0) {
+    if (hangman.getGuessesRemaining() > 0) {
       System.out.println("That was my word! You beat me!");
     } else {
       System.out.println("Sorry, you lose!");
