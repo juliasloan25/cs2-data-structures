@@ -88,7 +88,7 @@ public class GuesserTests {
     @Test
     public void testMakeGuessExceptionsInRandom() {
         Constructor c = Reflection.getConstructor(RandomHangmanChooser.class, int.class, int.class);
-        RandomHangmanChooser chooser = Reflection.newInstance(c, 3, 1);
+        RandomHangmanChooser chooser = Reflection.newInstance(c, 1, 1);
         Method m = Reflection.getMethod(RandomHangmanChooser.class, "makeGuess", char.class);
         IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(chooser, (char) ('a' - (i + 1)))));
         IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(chooser, (char) ('z' + (i + 1)))));
@@ -204,7 +204,7 @@ public class GuesserTests {
     @Test
     public void testMakeGuessExceptionsInEvil() {
         Constructor c = Reflection.getConstructor(EvilHangmanChooser.class, int.class, int.class);
-        EvilHangmanChooser chooser = Reflection.newInstance(c, 3, 1);
+        EvilHangmanChooser chooser = Reflection.newInstance(c, 1, 1);
         Method m = Reflection.getMethod(EvilHangmanChooser.class, "makeGuess", char.class);
         IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(chooser, (char) ('a' - (i + 1)))));
         IntStream.range(0, 20).forEach(i -> assertThrows(IllegalArgumentException.class, () -> m.invoke(chooser, (char) ('z' + (i + 1)))));
