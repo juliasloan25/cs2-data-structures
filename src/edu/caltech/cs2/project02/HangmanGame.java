@@ -25,6 +25,8 @@ public class HangmanGame {
     System.out.println();
 
     // set up the the hangman chooser and start the game
+    // STUDENT: you may change the following line to test your other
+    //          choosers and guessers!
     CHOOSER = new RandomHangmanChooser(length, max);
     GUESSER = new ConsoleHangmanGuesser(console);
     playGame(CHOOSER, GUESSER);
@@ -52,8 +54,6 @@ public class HangmanGame {
 
   // reports the results of the game, including showing the answer
   public static void showResults(IHangmanChooser hangman) {
-    // if the game is over, the answer is the first word in the list
-    // of words, so we use an iterator to get it
     if (hangman.getGuessesRemaining() > 0) {
       System.out.println("That was my word! You beat me!");
     } else {

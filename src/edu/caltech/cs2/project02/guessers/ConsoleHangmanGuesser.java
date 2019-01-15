@@ -14,11 +14,7 @@ public class ConsoleHangmanGuesser implements IHangmanGuesser {
 
   @Override
   public char getGuess(String pattern, Set<Character> guesses) {
-    char next;
-    do {
-      System.out.print("Your guess? ");
-      next = console.next().toLowerCase().charAt(0);
-    } while (guesses.contains(next));
-    return next;
+    System.out.print("Your guess? ");
+    return console.next().charAt(0);
   }
 }
