@@ -25,8 +25,6 @@ public class HangmanGame {
     System.out.println();
 
     // set up the the hangman chooser and start the game
-    // STUDENT: you may change the following line to test your other
-    //          choosers and guessers!
     CHOOSER = new RandomHangmanChooser(length, max);
     GUESSER = new ConsoleHangmanGuesser(console);
     playGame(CHOOSER, GUESSER);
@@ -40,7 +38,16 @@ public class HangmanGame {
       System.out.println("guessed : " + chooser.getGuesses());
       System.out.println("current : " + chooser.getPattern());
       char ch = guesser.getGuess(chooser.getPattern(), chooser.getGuesses());
-      int count = chooser.makeGuess(ch);
+      int count = -1;
+      while (count == -1) {
+        try {
+          count = chooser.makeGuess(ch);
+        } catch (IllegalArgumentException e) {
+          System.out.println("'" + ch + "' wasn't a valid guess because " + e.getMessage() + ".");
+          ch = guesser.getGuess(chooser.getPattern(), chooser.getGuesses());
+        }
+      }
+
       if (count == 0) {
         System.out.println("Sorry, there are no " + ch + "'s");
       } else if (count == 1) {
@@ -54,12 +61,12 @@ public class HangmanGame {
 
   // reports the results of the game, including showing the answer
   public static void showResults(IHangmanChooser hangman) {
-    if (hangman.getGuessesRemaining() > 0) {
+    if (hangman.getGuessesRemaining() >= 0) {
       System.out.println("That was my word! You beat me!");
     } else {
       System.out.println("Sorry, you lose!");
-       String answer = hangman.getWord();
-       System.out.println("My word was '" + answer + "'.");
+      String answer = hangman.getWord();
+      System.out.println("My word was '" + answer + "'.");
     }
   }
 }
