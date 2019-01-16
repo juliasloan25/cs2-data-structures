@@ -77,7 +77,7 @@ public class ChooserTests {
     @Test
     public void testExceptionsViolatedInRandomConstructor() {
         Constructor c = Reflection.getConstructor(RandomHangmanChooser.class, int.class, int.class);
-        assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, -1, 3));
+        assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, -1, 3));
         assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, 3, -1));
         assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, Integer.MAX_VALUE, 3));
     }
@@ -193,7 +193,7 @@ public class ChooserTests {
     @Test
     public void testExceptionsViolatedInEvilConstructor() {
         Constructor c = Reflection.getConstructor(EvilHangmanChooser.class, int.class, int.class);
-        assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, -1, 3));
+        assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, -1, 3));
         assertThrows(IllegalArgumentException.class, () -> Reflection.newInstance(c, 3, -1));
         assertThrows(IllegalStateException.class, () -> Reflection.newInstance(c, Integer.MAX_VALUE, 3));
     }
