@@ -23,6 +23,7 @@ public class RandomHangmanChooser implements IHangmanChooser {
     }
     if (wordLength < 1 || maxGuesses < 1)
       throw new IllegalArgumentException("One or both argument(s) too small.");
+
     this.guessesLeft = maxGuesses;
     boolean lengthExists = false;
     SortedSet<String> dictSet = new TreeSet<String>();
@@ -33,7 +34,7 @@ public class RandomHangmanChooser implements IHangmanChooser {
         lengthExists = true;
       }
     }
-    if (!lengthExists) //no words of given length
+    if (!lengthExists) //no words of given length in dictionary
       throw new IllegalStateException("No words found with the given length.");
     this.word = new ArrayList<>(dictSet).get(rand.nextInt(dictSet.size()));
   }

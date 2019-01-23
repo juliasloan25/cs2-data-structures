@@ -9,8 +9,6 @@ import java.util.*;
 public class EvilHangmanChooser implements IHangmanChooser {
   private int guessesLeft;
   private ArrayList<Character> guesses;
-  private static Random rand = new Random();
-  private TreeSet<String> words;
   private String pattern = "";
 
   public EvilHangmanChooser(int wordLength, int maxGuesses) {
@@ -37,11 +35,6 @@ public class EvilHangmanChooser implements IHangmanChooser {
     }
     if (!lengthExists) //no words of given length
       throw new IllegalStateException("No words found with the given length.");
-    //this.word = new ArrayList<>(dictSet).get(rand.nextInt(dictSet.size())); //CHANGE
-    //call other methods?
-
-
-    //getPatternSet(getPatternMap(getPattern(), dictSet)); //tf is this
   }
 
   @Override
@@ -65,20 +58,21 @@ public class EvilHangmanChooser implements IHangmanChooser {
           if (letter == v.charAt(i)) { //letter in at least 1 word
             validGuess = true;        //NEED TO ADD NEW KEYS TO MAP IF VALIDGUESS - DEPENDS ON WHERE CHAR IS IN WORDS(v)
             tempKey.toCharArray()[i] = letter; //create new pattern tempKey
-            //tempKey.toString();
             patterns.put(tempKey, new TreeSet<String>());
-            patterns.get(tempKey).add(v); //add this word to the map at key tempKey
+            patterns.get(tempKey).add(v); //add this word (v) to the map at key tempKey
           }
         }
-
         if (patterns.get(k).size() > numWords) {
+          TreeSet words = new TreeSet<String>();
+          words = patterns.get(k);
           numWords = patterns.get(k).size();
           this.pattern = k;
+          patterns.clear();
+          patterns.put(k, words);
         }
       }
     }
-
-    if (!validGuess) //incorrect guess
+    if (!validGuess) //incorrect guess - decrement guessesLeft
       this.guessesLeft--;
     return numWords;
   }
@@ -118,37 +112,6 @@ public class EvilHangmanChooser implements IHangmanChooser {
   //Returns the secret word and ends the game.
   public String getWord() {
     this.guessesLeft = 0;
-    //return this.patterns.get(this.pattern).first();
-    return "";
+    return this.pattern;
   }
-
-
-
-  /*//Returns a TreeMap containing all possible patterns mapped to the set of words with that pattern.
-  private Map getPatternMap(String pattern, SortedSet<String> dictSet) {
-    Map wordMap = new TreeMap<String, SortedSet<String>>(); //change to sortedset for alphabetical order
-    ArrayList<String> dictArray  = new ArrayList<>(dictSet); //convert dictSet from SortedSet to ArrayList
-    for (String compare : dictArray) {
-      /*if (wordMap.containsKey(getPattern(compare)))
-        wordMap.get(getPattern(compare)).add(compare);
-      else
-        wordMap.put(getPattern(compare), compare);*/
-    /*}
-    return wordMap;
-  }
-
-
-  //Sets the field words to be the set of words with the most common pattern.
-  private void getPatternSet(Map wordMap<String, SortedSet<String>>) {
-    int max = 0;
-    String currentKey = "";
-    //TreeSet<String> wordSet = new TreeSet<String>();
-    for (String k : wordMap.keySet()) {
-      if (wordMap.get(k).size() > max || (wordMap.get(k).size() == max && k.compareTo(currentKey) < 0)) {
-        currentKey = k;
-        this.words = wordMap.get(k);
-      }
-    }
-  }*/
-
 }

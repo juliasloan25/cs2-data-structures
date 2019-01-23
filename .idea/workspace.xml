@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +25,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state>
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3370#3371#0" expanded="true" />
+                <element signature="e#3385#3386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="91" column="78" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="78" />
+            <state relative-caret-position="298">
+              <caret line="261" selection-start-line="261" selection-end-line="261" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,16 +91,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="332">
+              <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#931#939#0" expanded="true" />
                 <element signature="e#2090#2115#0" expanded="true" />
-                <element signature="e#3507#3508#0" expanded="true" />
+                <element signature="e#3380#3381#0" expanded="true" />
                 <element signature="e#1881#1892#0" expanded="true" />
-                <element signature="e#3922#3923#0" expanded="true" />
+                <element signature="e#3795#3796#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/interfaces/IHangmanChooser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,16 +134,17 @@
       <find>getguesses</find>
       <find>wordlength</find>
       <find>dict.</find>
-      <find>rand</find>
       <find>guesses</find>
-      <find>makeguess</find>
       <find>sortedset</find>
       <find>getword</find>
       <find>samepatter</find>
       <find>getpattern</find>
       <find>guessesleft</find>
       <find>patterns</find>
+      <find>makeguess</find>
       <find>getguessesremaining</find>
+      <find>rand</find>
+      <find>words</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,9 +227,9 @@
         <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/GuesserTests.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/ConsoleHangmanGuesser.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" />
       </list>
     </option>
   </component>
@@ -305,7 +314,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548227263130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548228519756" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project01-jsloan/project01-nbodysimulation.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -439,16 +448,17 @@
       <option name="project" value="LOCAL" />
       <updated>1546234834324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="C tests passed">
+      <created>1548227281481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548227281481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="B_Tests - 2019.01.22 at 01h 54m 11s.xml">
-      <configuration name="B Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="C_Tests - 2019.01.22 at 22h 59m 22s.xml">
-      <configuration name="C Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="B_Tests - 2019.01.22 at 22h 59m 28s.xml">
       <configuration name="B Tests" configurationId="JUnit" />
     </history-entry>
@@ -473,12 +483,19 @@
     <history-entry file="B_Tests - 2019.01.22 at 23h 07m 38s.xml">
       <configuration name="B Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="B_Tests - 2019.01.22 at 23h 15m 24s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="B_Tests - 2019.01.22 at 23h 22m 07s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="19047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -524,7 +541,8 @@
     <MESSAGE value="Updated formatting for trace files." />
     <MESSAGE value="Added initial A level tests for AIHangmanGuesser inside of ChooserTests.java." />
     <MESSAGE value="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java." />
+    <MESSAGE value="C tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="C tests passed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dictionaries/scrabble.txt" />
@@ -538,13 +556,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/BodyTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/interfaces/IHangmanChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/NBodySimulationTests.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.4.0-SNAPSHOT/junit-jupiter-params-5.4.0-SNAPSHOT.jar!/org/junit/jupiter/params/ParameterizedTestExtension.class">
@@ -698,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="91" column="78" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/scrabble.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -717,17 +718,6 @@
           <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3370#3371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,17 +742,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/interfaces/IHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3385#3386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="332">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#931#939#0" expanded="true" />
             <element signature="e#2090#2115#0" expanded="true" />
-            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#3380#3381#0" expanded="true" />
             <element signature="e#1881#1892#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
+            <element signature="e#3795#3796#0" expanded="true" />
           </folding>
         </state>
       </provider>
