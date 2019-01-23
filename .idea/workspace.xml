@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241d48ef-642b-434c-8a58-a60cbd226800" name="Default Changelist" comment="" />
+    <list default="true" id="241d48ef-642b-434c-8a58-a60cbd226800" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3370#3371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="91" column="78" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,35 +49,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
               <folding>
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/scrabble.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2346">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-493">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#931#939#0" expanded="true" />
+                <element signature="e#2090#2115#0" expanded="true" />
+                <element signature="e#3507#3508#0" expanded="true" />
+                <element signature="e#1881#1892#0" expanded="true" />
+                <element signature="e#3922#3923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +123,19 @@
       <find>invok</find>
       <find>invoke</find>
       <find>instance</find>
+      <find>getguesses</find>
+      <find>wordlength</find>
+      <find>dict.</find>
+      <find>rand</find>
+      <find>guesses</find>
+      <find>makeguess</find>
+      <find>sortedset</find>
+      <find>getword</find>
+      <find>samepatter</find>
+      <find>getpattern</find>
+      <find>guessesleft</find>
+      <find>patterns</find>
+      <find>getguessesremaining</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,19 +215,20 @@
         <option value="$PROJECT_DIR$/tests/data/trace7-.txt" />
         <option value="$PROJECT_DIR$/tests/data/trace3-.txt" />
         <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" />
         <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project02/GuesserTests.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/ConsoleHangmanGuesser.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="158" />
+    <option name="y" value="702" />
+    <option name="width" value="2736" />
+    <option name="height" value="1230" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,61 +237,64 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="project02-hangman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
+              <item name="project02-jsloan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project02-jsloan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project02" type="462c0819:PsiDirectoryNode" />
               <item name="choosers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
-              <item name="guessers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-              <item name="project02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
   </component>
@@ -247,8 +305,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547581767951" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548227263130" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project01-jsloan/project01-nbodysimulation.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -286,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.C Tests">
+  <component name="RunManager" selected="JUnit.B Tests">
     <configuration name="HangmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.caltech.cs2.project02.HangmanGame" />
       <module name="project02-hangman" />
@@ -385,55 +443,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="A_Tests - 2018.12.30 at 22h 06m 27s.xml">
+    <history-entry file="B_Tests - 2019.01.22 at 01h 54m 11s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="C_Tests - 2019.01.22 at 22h 59m 22s.xml">
+      <configuration name="C Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="B_Tests - 2019.01.22 at 22h 59m 28s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="B_Tests - 2019.01.22 at 23h 02m 14s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2019.01.22 at 23h 02m 25s.xml">
       <configuration name="A Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="A_Tests - 2018.12.30 at 22h 08m 02s.xml">
+    <history-entry file="B_Tests - 2019.01.22 at 23h 02m 58s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="B_Tests - 2019.01.22 at 23h 03m 39s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A_Tests - 2019.01.22 at 23h 05m 53s.xml">
       <configuration name="A Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 08h 29m 03s.xml">
+    <history-entry file="A_Tests - 2019.01.22 at 23h 06m 44s.xml">
       <configuration name="A Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 08h 32m 22s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 08h 33m 25s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 08h 37m 41s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 09h 22m 09s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 09h 24m 02s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 09h 53m 22s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A_Tests - 2018.12.31 at 09h 53m 40s.xml">
-      <configuration name="A Tests" configurationId="JUnit" />
+    <history-entry file="B_Tests - 2019.01.22 at 23h 07m 38s.xml">
+      <configuration name="B Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="19047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Floobits" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40254778" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32858837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33926454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,12 +498,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32858837" />
       <window_info anchor="bottom" id="Anonymous Apex" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32884097" />
       <window_info anchor="bottom" id="SOQL Query" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,13 +527,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added field tests for RandomHangmanChooser.java and AIHangmanGuesser.java." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dictionaries/scrabble.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionaries/scrabble.txt" />
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/AIHangmanGame.java" />
-    <entry file="file://$PROJECT_DIR$/dictionaries/example.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionaries/example.txt" />
     <entry file="file://$PROJECT_DIR$/project02-hangman.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -492,13 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1438">
-          <caret line="2391" column="25" selection-start-line="2391" selection-start-column="25" selection-end-line="2391" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/NBodySimulationTests.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.4.0-SNAPSHOT/junit-jupiter-params-5.4.0-SNAPSHOT.jar!/org/junit/jupiter/params/ParameterizedTestExtension.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,16 +671,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/HangmanChooser.java" />
     <entry file="file://$PROJECT_DIR$/../CS2/project01/tests/edu/caltech/cs2/project01/BodyTests.java" />
-    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/GuesserTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -644,39 +681,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="22" column="13" selection-end-line="264" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/ConsoleHangmanGuesser.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,20 +691,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java">
+    <entry file="file://$PROJECT_DIR$/../project01-jsloan/project01-nbodysimulation.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state>
+          <caret selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project02/ChooserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="91" column="78" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java">
+    <entry file="file://$PROJECT_DIR$/data/scrabble.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/HangmanGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -707,10 +723,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/RandomHangmanChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3370#3371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/guessers/AIHangmanGuesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project02/choosers/EvilHangmanChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#939#0" expanded="true" />
+            <element signature="e#2090#2115#0" expanded="true" />
+            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#1881#1892#0" expanded="true" />
+            <element signature="e#3922#3923#0" expanded="true" />
           </folding>
         </state>
       </provider>
